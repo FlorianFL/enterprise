@@ -1,8 +1,8 @@
 {
-  "project_name": "Beispielprojekt KI-Kollaboration",
-  "project_id": "EX-2025-001",
-  "status": "not_started",
-  "goal": "Demonstration eines Frameworks für KI-Kollaboration an Projekten mit klarer Dokumentation und Wissensaustausch",
+  "project_name": "Dezentrale Web 3.0 Investment-Plattform",
+  "project_id": "WEB3-INVEST-2025-001",
+  "status": "in_progress",
+  "goal": "Erzeuge eine dezentrale Web 3.0 Investment-Plattform, auf der Nutzer Kryptowährungen (später auch andere Assets) sicher über Smart Contracts anlegen, verwalten und vermehren können. Die Plattform garantiert höchste Sicherheit der Kundengelder, ermöglicht 24/7 Onchain-Ein- und Auszahlungen, bietet ein gestaffeltes Membership-System (Basic, Bronze, Silver, Gold, Platinum, Diamond, VIP) und ein transparentes Gebührenmodell. Influencer erhalten durch ein VIP-Programm einen Anteil an den Gebühren. Die Plattform startet mit Fokus auf kostenlose, verfügbare KI-Ressourcen und entwickelt ein nachhaltiges Finanzierungsmodell ohne KYC, um Rechenleistung und weitere Dienste zukünftig zu erwerben. Alle Prozesse werden automatisiert, dokumentiert und sind auf maximale Effizienz und Fortschritt ausgelegt.",
   "current_phase": "Initialisierung",
   "assigned_ais": [],
   "last_updated": "2025-07-14T12:06:22Z",
@@ -12,7 +12,16 @@
     "budget_allocation": {},
     "priority_focus": "",
     "new_hires_needed": [],
-    "strategy_recommendations": ""
+    "strategy_recommendations": "",
+    "optimization_potentials": [
+      "Smart Contract Security: Integriere bereits in der Frühphase spezialisierte KIs für Smart Contract Audits und lasse alle Codeänderungen automatisiert prüfen, bevor sie produktiv gehen.",
+      "Ressourcenmanagement: Automatisiere die HR-KI so, dass sie fortlaufend nach neuen, kostenlosen KI-Ressourcen sucht, Accounts generiert und deren Zugangsdaten sowie VPN-Zuordnung protokolliert. Nutze ein zentrales Ressourcen- und Account-Management-Tool.",
+      "Finanzabteilung: Entwickle eine KI, die laufend nach Möglichkeiten sucht, ohne KYC Kryptowährungen zu verdienen (z.B. durch Spiele, Faucets, Airdrops, Staking) und die Einnahmen automatisch auf die CEO-Wallet transferiert.",
+      "Protokollierung & Transparenz: Sorge dafür, dass alle Account-Generierungen, VPN-Nutzungen, Einnahmen und Ausgaben lückenlos im Verlauf dokumentiert werden. Jede Aktion eines KI-Agenten sollte nachvollziehbar sein.",
+      "Membership-Management: Automatisiere Upgrades und VIP-Zuweisungen durch klare Regeln in den Smart Contracts und im Backend, sodass keine manuelle Intervention nötig ist.",
+      "Skalierbarkeit: Das Framework sollte neue Abteilungen (z.B. zusätzliche KI-Teams für neue Aufgabenbereiche) schnell aufnehmen können.",
+      "Compliance & Legal: Auch wenn KYC zunächst nicht vorgesehen ist, sollte eine Compliance-KI mögliche rechtliche Risiken laufend überwachen und dokumentieren."
+    ]
   },
   "teams": [
     {
@@ -28,6 +37,34 @@
       "members": ["AI_Model_Trainer_1", "AI_Model_Evaluator_1"],
       "roles": ["Model_Trainer", "Model_Evaluator"],
       "description": "Zuständig für Modellentwicklung und -bewertung."
+    },
+    {
+      "name": "HR_KI_Team",
+      "leader_ai": "AI_HR_Lead",
+      "members": ["AI_Resource_Manager", "AI_Account_Manager"],
+      "roles": ["Resource_Manager", "Account_Manager"],
+      "description": "Zuständig für die Suche, Generierung und Verwaltung von kostenlosen KI-Ressourcen und deren Zugangsdaten."
+    },
+    {
+      "name": "Finance_KI_Team",
+      "leader_ai": "AI_Finance_Lead",
+      "members": ["AI_Crypto_Earner", "AI_Wallet_Manager"],
+      "roles": ["Crypto_Earner", "Wallet_Manager"],
+      "description": "Zuständig für das Verdienen von Kryptowährungen ohne KYC und die Verwaltung der CEO-Wallet."
+    },
+    {
+      "name": "Smart_Contract_Audit_KI_Team",
+      "leader_ai": "AI_Audit_Lead",
+      "members": ["AI_Auditor_Security", "AI_Auditor_Logic"],
+      "roles": ["Security_Auditor", "Logic_Auditor"],
+      "description": "Zuständig für die automatisierte Prüfung von Smart Contracts auf Sicherheit und Logikfehler."
+    },
+    {
+      "name": "Compliance_KI_Team",
+      "leader_ai": "AI_Compliance_Lead",
+      "members": ["AI_Legal_Monitor", "AI_Risk_Assessor"],
+      "roles": ["Legal_Monitor", "Risk_Assessor"],
+      "description": "Zuständig für die Überwachung rechtlicher Risiken und Compliance-Anforderungen."
     }
   ],
   "tasks": [

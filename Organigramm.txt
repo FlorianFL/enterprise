@@ -1,0 +1,27 @@
+                                 [CEO]
+                                   |
+    -------------------------------------------------------------------
+    |                |                |               |               |
+[HR-KI-Team]   [Finance-KI-Team] [Production-KI-Team] [Audit-KI-Team] [Strategy-KI-Team]
+    |                |                |               |               |
+    |                |                |               |               |
+[Account-      [Crypto-Earner-   [Smart-Contract-  [Security-      [Market-
+Manager-KI]    KI]               Dev-KI]           Lead-KI]        Analyst-KI]
+[VPN-Manager-  [Wallet-Manager-  [Frontend-Dev-    [System-        [Trend-
+KI]            KI]               KI]               Security-KI]    Scout-KI]
+[Resource-     [Cost-Analyst-    [Backend-Dev-     [Smart-
+Optimizer-KI]  KI]               KI]               Contract-
+                                                  Auditor-KI]
+    |                |                |               |               |
+    |                |                |               |               |
+------------------- Gemeinsame Infrastruktur und Dokumentation -------------------
+    |                |                |               |               |
+    |                |                |               |               |
+[project_manifest.json] -- Ziele, Teams, Aufgaben, CEO-Direktiven
+[AI_GUIDELINES.md]     -- Regeln, Standards, Rollen
+[project_structure.md]  -- Aufbau, Doku-Standards
+[tasks/]                -- Aufgaben, Subtasks
+[history/]              -- Verlaufsprotokolle
+[knowledge_base/]       -- Ideen, bekannte Probleme, Lessons Learned
+[framework_improvements.md] -- Verbesserungen, Automatisierung
+[README_Framework_Overview.md] -- Überblick, Interaktionspunkte
