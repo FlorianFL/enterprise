@@ -1,0 +1,7 @@
+[Zeitstempel - ISO 8601] - [KI-Name] - [Aktionstyp] - [Betroffene Aufgabe/Datei]
+Beschreibung: [Detaillierte Beschreibung der Aktion, ihrer Parameter und Ergebnisse]
+Output: [Konsolenausgabe, Fehlermeldungen oder relevante Daten]
+
+--- (Trennlinie für aufeinanderfolgende Aktionen innerhalb derselben Log-Datei)
+
+

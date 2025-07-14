@@ -1,0 +1,70 @@
+{
+  "project_name": "Beispielprojekt KI-Kollaboration",
+  "project_id": "EX-2025-001",
+  "status": "not_started",
+  "goal": "Demonstration eines Frameworks für KI-Kollaboration an Projekten mit klarer Dokumentation und Wissensaustausch",
+  "current_phase": "Initialisierung",
+  "assigned_ais": [],
+  "last_updated": "2025-07-14T12:06:22Z",
+  "kill_switch": false,
+  "kill_keyword": "STOP_ALL_KI_WORK",
+  "ceo_directives": {
+    "budget_allocation": {},
+    "priority_focus": "",
+    "new_hires_needed": [],
+    "strategy_recommendations": ""
+  },
+  "teams": [
+    {
+      "name": "Data_Engineering_Team",
+      "leader_ai": "AI_Data_Lead",
+      "members": ["AI_Data_Collector_1", "AI_Data_Cleaner_1"],
+      "roles": ["Data_Collector", "Data_Cleaner"],
+      "description": "Zuständig für Datensammlung und -vorbereitung."
+    },
+    {
+      "name": "ML_Modeling_Team",
+      "leader_ai": "AI_ML_Lead",
+      "members": ["AI_Model_Trainer_1", "AI_Model_Evaluator_1"],
+      "roles": ["Model_Trainer", "Model_Evaluator"],
+      "description": "Zuständig für Modellentwicklung und -bewertung."
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "task_001_setup",
+      "title": "Initiales Setup des Projektumfelds",
+      "status": "completed",
+      "assigned_ai": "AI_Agent_Prototype",
+      "due_date": null,
+      "completed_date": "2025-07-14"
+    },
+    {
+      "task_id": "task_002_data_prep",
+      "title": "Daten für Modelltraining vorbereiten",
+      "assigned_to_leader": "AI_Data_Lead",
+      "status": "open",
+      "subtasks": [
+        {
+          "subtask_id": "subtask_002_01_collect",
+          "title": "Rohdaten sammeln",
+          "assigned_to_ai": "AI_Data_Collector_1",
+          "status": "open"
+        },
+        {
+          "subtask_id": "subtask_002_02_clean",
+          "title": "Daten bereinigen",
+          "assigned_to_ai": "AI_Data_Cleaner_1",
+          "status": "open"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created_by": "Manus AI",
+    "creation_date": "2025-07-14",
+    "version": "1.0.0",
+    "description": "Dieses Beispielprojekt dient der Veranschaulichung des vorgeschlagenen Frameworks für die Zusammenarbeit mehrerer KIs an einem Projekt."
+  }
+}
+
